@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv {
+    margin-top: 20px;
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 13px;
+    height: 90vh;
+}
+
+#topDiv {
+    height: 30%;
+    background-color: black;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+#bottomDiv {
+    height: 70%;
+    background-color: rgb(18, 18, 18);
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.div1 {
+    display: flex;
+    height: 17%;
+    gap: 5%;
+    margin-bottom: 4%;
+}
+
+.div1 div {
+    width: 22%;
+    background-color: rgb(75, 74, 74);
+    border-radius: 100%;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 div:last-of-type {
+    background-color: rgb(221, 140, 48);
+}
+
+.div1 div:active {
+    background-color: rgb(50, 50, 50);
+}
+
+.div2 {
+    display: flex;
+    height: 17%;
+    gap: 5%;
+    margin-bottom: 4%;
+}
+
+.div2 div {
+    width: 22%;
+    background-color: rgb(46, 44, 44);
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 div:active {
+    background-color: rgb(78, 78, 78);
+}
+
+.div2 div:last-of-type {
+    background-color: rgb(221, 140, 48);
+}
+
+.div2 div:last-of-type:active {
+    background-color: rgb(245, 196, 141);
+}
+
+#zero {
+    width: 170px;
+    border-radius: 100px;
+}
