@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="form.php" method="get">
+        <fieldset>
+            <legend>Vos coordonées</legend>
+
+            <label for="nom">Nom : </label>
+            <input type="text" id="nom" name="nom" placeholder="votre nom" />
+            <br>
+            <label for="prenom">Prénom : </label>
+            <input type="text" id="prenom" name="prenom" placeholder="votre prénom" />
+            <br>
+            <label for="calendrier">Date de Naissance : </label>
+            <input type="date" id="calendrier" name="calendrier" />
+            <br>
+            <label for="mail">Mail : </label>
+            <input type="email" id="mail" name="email" placeholder="votre mail" />
+            <br>
+            <label for="genre">Genre : </label>
+            <input type="radio" id="genre" value="genre1" name="Homme" />Homme
+            <input type="radio" id="genre" value="genre2" />Femme
+            <br>
+            <label for="pays">Pays : </label>
+            <select id="pays" name="pays">
+                    <option value="mar">Maroc</option>
+                    <option value="fra">France</option>
+                    <option value="esp">Espagne</option>
+            </select>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Vos gouts</legend>
+
+            <input type="checkbox" id="1" />
+            <label for="1">Tarte aux fraises a la créme d'ammandes</label>
+            <br>
+            <input type="checkbox" id="2" />
+            <label for="2">Tarte aux prunes</label>
+            <br>
+            <input type="checkbox" id="3" />
+            <label for="3">Tarte rustique aux mirabelles de Lorraine, noisettes et miel</label>
+            <br>
+            <textarea placeholder="Décrivez vos gouts en détail" cols="50" rows="5"></textarea>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Envoyer nous votre photo</legend>
+
+            <input type="file" value="file">
+            <br>
+            <button type="reset">Effacer</button>
+            <button type="submit">Envoyer</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
